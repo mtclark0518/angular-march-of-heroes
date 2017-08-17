@@ -11,6 +11,8 @@ import { AppComponent }         from './app.component';
 import { HeroDetailComponent }  from './hero-detail/hero-detail.component';
 import { DashboardComponent }   from './dashboard/dashboard.component';
 import { HeroesComponent }      from './heroes/heroes.component';
+import { HeroSearchComponent } from './hero-search/hero-search.component';
+
 import { HeroService }          from './services/hero/hero.service';
 
 
@@ -19,7 +21,8 @@ import { HeroService }          from './services/hero/hero.service';
     AppComponent,
     HeroDetailComponent,
     DashboardComponent,
-    HeroesComponent
+    HeroesComponent,
+    HeroSearchComponent
   ],
   imports: [
     BrowserModule,
