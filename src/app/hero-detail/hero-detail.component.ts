@@ -1,3 +1,5 @@
+// tslint:disable:import-spacing
+
 import { Component, Input, OnInit }    from '@angular/core';
 import { Hero }                        from '../hero';
 import { ActivatedRoute, ParamMap }    from '@angular/router';
